@@ -1,7 +1,9 @@
--- Factorial recursive
+-- factorial recursive
 
 function factorial(num)
-	if num == 0 then
+	elseif num < 0 then
+		return "negative numbers are not accepted!"
+	elseif num == 0 then
 		return 1
 	else
 		return num * factorial(num - 1)
