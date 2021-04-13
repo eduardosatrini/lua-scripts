@@ -10,4 +10,4 @@ end
 
 print("Enter a number for calc factorial: ")
 num = io.read("*number") --> read a number
-print(factorial(num)) --> show factorial
+print(factorial(num)) --> result
