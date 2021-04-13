@@ -3,5 +3,5 @@ function area(x, y)
 end
 
 function square(n)
-	return n^2
+	return n ^ 2
 end
