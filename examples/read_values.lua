@@ -1,7 +1,7 @@
 function read_values(n)
     local values = {}    
     for i = 1, n do
-        print("Enter a" .. i .. " value: ")
+        print("Enter a " .. i .. "º value: ")
         values[i] = io.read()
     end
     
